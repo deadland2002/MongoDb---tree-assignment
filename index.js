@@ -51,6 +51,9 @@ app.get("/BFS",async (req,res)=>{
 })
 
 // app.get("/insert",async (req,res)=>{
+//     await TreeSchema.create({Node_Index:"1",Left:"2",Right:"3"});
+//     await TreeSchema.create({Node_Index:"2",Left:"4",Right:"5"});
+//     await TreeSchema.create({Node_Index:"3",Left:"6",Right:"7"});
 //     await TreeSchema.create({Node_Index:"4",Left:"8",Right:"9"});
 //     await TreeSchema.create({Node_Index:"5",Left:"10",Right:"11"});
 //     await TreeSchema.create({Node_Index:"6",Left:"12",Right:"13"});

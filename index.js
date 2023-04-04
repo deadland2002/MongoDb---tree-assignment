@@ -23,7 +23,7 @@ app.get("/getAll",async (req,res)=>{
 app.get("/BFS",async (req,res)=>{
     const all = await TreeSchema.find();
     var dict = {};
-    const root = "1";
+    const root = "2";
     var ans = [root];
     var queue = [root];
 
@@ -46,8 +46,7 @@ app.get("/BFS",async (req,res)=>{
         queue.shift();
     }
 
-    console.log(ans);
-    res.json(dict);
+    res.json(ans);
 })
 
 // app.get("/insert",async (req,res)=>{
